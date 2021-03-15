@@ -1,6 +1,8 @@
 # AWS SES -> kindle (via nodemailer) demo
 
-Here I describe an issue I was having in sending emails with attachments to my kindle.
+The issue I'm having is that I can't send an email with *only* an attachment to my kindle. I'm having this problem when sending an email using nodemailer that contains only an attachment.
+
+As you will see in the sections below, this seems to be either an SMTP generation issue from nodemailer, or an SMTP parsing issue from the kindle email client. I'm not sure which.
 
 
 ## >> Working Script example
