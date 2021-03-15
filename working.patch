@@ -1,0 +1,12 @@
+diff --git a/index.js b/index.js
+index d160314..82c0a76 100644
+--- a/index.js
++++ b/index.js
+@@ -23,6 +23,7 @@ transporter.sendMail(
+   {
+       from: fromAddress,
+       to: toAddress,
++      text: "my text",
+       attachments: [
+           {
+               filename: attachmentFilename,
